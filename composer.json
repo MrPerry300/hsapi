@@ -1,0 +1,47 @@
+{
+    "name": "xuplau/hsapi",
+    "type": "library",
+    "description": "PHP API Consumer for Hearthstone API",
+    "keywords": [
+        "xuplau",
+        "hsapi"
+    ],
+    "homepage": "https://github.com/ivanrosolen/hsapi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Rosolen",
+            "email": "ivanrosolen@gmail.com",
+            "homepage": "http://ivanrosolen.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "netresearch/jsonmapper": "~0.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xuplau\\HSAPI\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xuplau\\HSAPI\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
