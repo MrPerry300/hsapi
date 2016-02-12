@@ -8,7 +8,7 @@ class HSAPI
 {
 
     private $base_uri  = 'https://omgvamp-hearthstone-v1.p.mashape.com';
-    private $api_key   = 'zqTkSVryBQmshZYMro905HipSdw4p18G4K2jsncvAYLLr3p9IK';
+    private $api_key   = 'secret';
     private $jwt       = '';
     private $jwt_renew = '';
     private $locale    = 'ptBR';
