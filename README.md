@@ -24,11 +24,17 @@ $ composer require xuplau/hsapi
 ## Usage
 
 ``` php
-$hsapi   = new Xuplau\HSAPI;
+require __DIR__ . '/../vendor/autoload.php';
+
+use Xuplau\HSAPI\HSAPI;
+use Xuplau\HSAPI\Filters\Card as Filters;
+
+$hsapi   = new HSAPI;
 $filters = new Filters;
 
 // Get All Cards
-$tmp = $hsapi->cards( $filters );
+$tmp = $hsapi->cards()->get($filters);
+var_dump($tmp);
 ```
 
 ## Change log
