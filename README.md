@@ -7,6 +7,8 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
+Just playing around with guzzle, psr7 and jsonmapper
+
 ## API
 
 This API provides up to date Hearthstone data pulled directly from the game.
